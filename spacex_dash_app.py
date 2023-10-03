@@ -7,7 +7,7 @@ from dash.dependencies import Input, Output
 import plotly.express as px
 
 # Read the airline data into pandas dataframe
-file_path = r'C:\Users\janni\Documents\Desktop\Zertifikate\IBM Data Science\Applied Data Science\spacex_launch_dash.csv'
+file_path = r'C:\Users\IBM Data Science\Applied Data Science\spacex_launch_dash.csv'
 
 # Read the CSV file into a DataFrame
 spacex_df = pd.read_csv(file_path)
